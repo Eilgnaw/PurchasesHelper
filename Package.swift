@@ -6,7 +6,11 @@ import PackageDescription
 let package = Package(
     name: "PurchasesHelper",
     platforms: [
-        .iOS(.v11), .watchOS("6.2"), .macOS(.v10_13)
+         .macOS(.v10_15),
+        .watchOS("6.2"),
+        .tvOS(.v13),
+        .iOS(.v13),
+        .visionOS(.v1)
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
